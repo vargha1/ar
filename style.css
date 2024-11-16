@@ -2,10 +2,25 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
+  height: 100svh;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
-  
+
+}
+
+model-viewer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#ar-button {
+  position: fixed;
+  left: 50%;
+  top: 2rem;
+  transform: translate(-50%,0);
 }
