@@ -17,7 +17,8 @@ model-viewer {
   height: 100%;
 }
 
-#ar-button {
+button,
+a {
   position: absolute;
   left: 50%;
   top: 2rem;
@@ -27,4 +28,9 @@ model-viewer {
   border: none;
   background-color: #ebd300;
   color: white;
+}
+
+model-viewer+a {
+  top: unset;
+  bottom: 2rem;
 }
